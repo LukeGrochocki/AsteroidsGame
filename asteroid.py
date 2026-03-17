@@ -3,6 +3,7 @@ from circleshape import CircleShape
 from constants import LINE_WIDTH, ASTEROID_MIN_RADIUS
 from logger import log_event
 import random
+from score import Score
 
 class Asteroid(CircleShape):
     def __init__(self, x, y, radius):
